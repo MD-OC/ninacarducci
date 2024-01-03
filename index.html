@@ -35,6 +35,7 @@
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Nina Carducci",
+            "url": "https://md-oc.github.io/ninacarducci",
             "image": "https://md-oc.github.io/ninacarducci/assets/images/nina/560_nina.webp",
             "telephone": "05 56 67 78 89",
             "priceRange": "50€ - 400€",
@@ -46,7 +47,27 @@
                 "postalCode": "33200",
                 "addressCountry": "FR"
             },
-            "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00"
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday"
+                    ],
+                    "opens": "10:00",
+                    "closes": "19:00"
+                }
+            ],
+            "areaServed": {
+                "@type": "City",
+                "name": "Bordeaux"
+            },
+            "sameAs": [
+                "https://www.instagram.com/ninacarducci.photo/"
+            ]
         }
     </script>
         
